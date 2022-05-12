@@ -1,10 +1,12 @@
 
 package speedtest
 
-import "io"
-import "fmt"
+import (
+	"io"
+	"fmt"
+) 
 
-// A JunkReader produces junk-ish data
+
 type JunkReader struct {
 	Data []byte
 	Size int
